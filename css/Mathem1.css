@@ -1,0 +1,546 @@
+/* Скрытые блоки */ 
+.to_decide {
+	display: none;
+}
+.solve_using_formula1 {
+	display: none;
+}
+.solve_using_formula2 {
+	display: none;
+}
+.solve_using_formula3 {
+	display: none;
+}
+.solve_using_formula4 {
+	display: none;
+}
+.roll_up_plus_or_minus {
+	display: none;
+}
+.roll_up_two_formul {
+	display: none;
+}
+/**/ 
+.abbreviating_formulas {
+	font-size: 70px;
+	padding: 10px;
+	text-align: center;
+	text-shadow: 0px 0px 0px black;
+	border-bottom: 2px solid #4682B4;
+}
+.select_formulas {
+	display: flex;
+	justify-content: space-around;
+	background-color: #4682B4;
+}
+.select_formulas a {
+	font-size: 45px;
+	color: #000000;
+	border-right: 1px solid #00008B;
+	border-left: 1px solid #00008B;
+	flex-grow: 1;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+.formulae:hover {
+	background-color: #9370DB;
+}
+.to_decide {
+	font-size: 40px;
+	margin: 10px;
+}
+.to_decide span{
+	color: red;
+	text-shadow: 0px 0px 0px black;
+}
+.not_clicked_text {
+	font-size: 40px;
+	text-align: center;
+}
+.img_not_click {
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+}
+.img_not {
+	width: 200px;
+}
+.collapse_expand {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+}
+.collapse_expand a {
+	margin: 20px;
+	background-color: #7FFFD4;
+	padding: 10px;
+	color: #800080;
+	border: 1px solid black;
+	width: 500px;
+	text-align: center;
+	border-radius: 30px;
+}
+.collapse_expand a:hover {
+	background-color: #AFEEEE;
+}
+.write_formula {
+	display: flex;
+	align-items: flex-end;
+	margin: 20px 0px 0px 20px;
+}
+.enter_the_formula {
+	display: flex;
+	font-size: 50px;
+}
+.enter_the_formula input {
+	font-size: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 20px 0px 0px 0px;
+	width: 200px;
+	background-color: #87CEEB;
+}
+.enter_the_formula sup	{
+	color: red;
+	text-shadow: 0px 0px 0px black;
+} 
+.enter_the_formula p {
+	margin: 20px 20px 0px 10px;
+} 
+.solve_specified_formula {
+	display: flex;
+	justify-content: space-around;
+	min-width: 30%;
+}
+.solve_specified_formula button {
+	font-size: 60px;
+	color: #DC143C;
+	background-color: #FFD700;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.solve_specified_formula button:hover {
+	background-color: #F0E68C;
+}
+.formula_text {
+	font-size: 60px;
+	margin: 20px;
+	color: #DC143C;
+	text-shadow: 0px 0px 0px black;
+}
+.solving_formula {
+	font-size: 50px;
+	display: flex;
+	color: #DC143C;
+	text-shadow: 0px 0px 0px black;
+}
+.bracket_formula {
+	margin: 0px 5px 0px 5px;
+}
+.rollUp {
+	display: none;
+}
+.enter_rollUp {
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+}
+.enter_rollUp input {
+	font-size: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 20px 10px 8px 10px;
+	width: 150px;
+	background-color: #87CEEB;
+}
+.enter_rollUp p {
+	margin: 0px 10px 0px 10px;
+	align-items: center;
+}
+.enter_rollUp div {
+	color: red;
+	text-shadow: 0px 0px 0px black;
+	font-size: 70px;
+}
+.enter_rollUp nav {
+	display: block;
+	color: red;
+	text-shadow: 0px 0px 0px black;
+	margin: 10px 10px 0px 10px;
+}
+.insert_rollUp {
+	display: flex;
+	align-items: flex-end;
+}
+.solve_button_rollUp button {
+	font-size: 60px;
+	color: #DC143C;
+	background-color: #FFD700;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.solve_button_rollUp button:hover {
+	background-color: #F0E68C;
+}
+.solve_button_rollUp {
+	min-width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.decision_rollup p {
+	color: #DC143C;
+	font-size: 60px;
+	text-shadow: 0px 0px 0px black;
+	margin: 20px;
+}
+.decision_rollup {
+	color: #DC143C;
+	font-size: 50px;
+}
+.answer_decision_rollup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.answer_decision_rollup_inline_block {
+	display: inline-block;
+}
+.number {
+	margin: 0px 10px 0px 10px;
+}
+.answer_decision_rollup sup {
+	font-size: 40px;
+	margin: 5px 5px 25px -10px;
+}
+.minus_center {
+	margin: 0px 10px 0px 5px;
+}
+.center_plus_minus {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 10px 0px 10px;
+}
+.center_plus_minus a {
+	background-color: #E0FFFF;
+	color: #2F4F4F;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.enter_rollUp .small {
+	font-size: 60px;
+
+	margin: 12px 5px 0px 5px;
+}
+.font {
+	font-size: 30px;
+}
+.center_plus_minus span {
+	margin: 0px 10px 0px 10px;
+}
+.center_plus_minus a:hover {
+	background-color:  #00FF7F;
+}
+.number_wight {
+	margin: 0px 10px 0px 10px;
+}
+.change_minus {
+	font-size: 50px;
+	color: black;
+	text-shadow: none;
+}
+.enter_rollUp sup {
+	margin: 0px 0px 20px -10px;
+	color: red;
+	box-shadow: 0px 0px 0px black;
+}
+.update_p_l {
+	padding: 0px 0px 0px 15px;
+}
+.two_formul {
+	padding: 0px 0px 25px 10px;
+}
+.enter_rollUp_nub span {
+	margin: 5px 10px 0px 10px;
+}
+.retreat {
+	margin: 0px 15px 0px 15px;
+}
+.two_2 {
+	padding: 0px 0px 0px 10px;
+}
+.mall {
+	font-size: 45px;
+
+}
+.mall_block nav {
+	margin: 10px 10px 0px 0px;
+}
+.solve_button_rollUp_mall {
+ 	min-width: 15%;
+}
+.write_formula1 {
+	display: flex;
+	margin: 0px 0px 0px 20px;
+}
+/* Первая фермула */
+@media(max-width: 1254px) {
+	.enter_1_right input {
+		width: 104px;
+		font-size: 40px;
+	}
+	.enter_1_right nav {
+		font-size: 40px;
+	}
+	.enter_1_right_decision p {
+		font-size: 50px;
+	}
+}
+@media(max-width: 1050px) {
+	.flex_none {
+		display: block;
+	}
+	.button_rollUp1 {
+		padding: 0px 0px 0px 20px;
+	}
+	.formula_enter_class {
+		min-width: 0%;
+		display: block;
+		margin: 20px 0px 20px 0px;
+	}
+	.formula_enter_class button {
+		font-size: 55px;
+	}
+	.answer_decision {
+		font-size: 40px;
+	}
+	.expand_0 {
+		font-size: 50px;
+	}
+	.expand p {
+		font-size: 50px;
+	}
+	.enter_1_left input {
+		font-size: 45px;
+		width: 193px;
+	}
+
+}
+@media(max-width: 495px) {
+	.enter_1_left input {
+		font-size: 40px;
+		width: 155px;
+	}
+	.enter_1_left sup {
+		font-size: 40px;
+	}
+	.formula_enter_class button {
+		font-size: 50px;
+	}
+}
+@media(max-width: 414px) {
+	.enter_1_left input {
+		font-size: 30px;
+		width: 125px;
+	}
+	.enter_1_left sup {
+		font-size: 30px;
+	}
+	.formula_enter_class button {
+		font-size: 45px;
+	}
+	.expand_0 {
+		font-size: 45px;
+	}
+	.expand p {
+		font-size: 45px;
+	}
+	.answer_decision {
+		font-size: 30px;
+	}
+	.enter_1_left p {
+		margin: 7px 10px 0px 0px; 
+	}
+	.write_formula1 {
+		margin: 0px;
+	}
+	.expand {
+		margin: 0px;
+	}
+	.expand_0 {
+		margin: 0px 0px 10px 0px;
+	}
+}
+@media(max-width: 306px) {
+	.enter_1_left input {
+		font-size: 25px;
+		width: 100px;
+		border-radius: 7px;
+	}
+	.formula_enter_class button {
+		font-size: 40px;
+		border-radius: 7px;
+	}
+	.expand_0 {
+		font-size: 40px;
+	}
+	.expand p {
+		font-size: 40px;
+	}
+	.answer_decision {
+		font-size: 25px;
+	}
+	.enter_1_left sup {
+		font-size: 25px;
+		padding: 5px 0px 0px 0px;
+	}
+}
+@media(max-width: 252px) {
+	.enter_1_left input {
+		font-size: 20px;
+		width: 80px;
+		border-radius: 5px;
+	}
+	.formula_enter_class button {
+		font-size: 35px;
+	}
+	.expand_0 {
+		font-size: 35px;
+	}
+	.expand p {
+		font-size: 35px;
+	}
+	.answer_decision {
+		font-size: 25px;
+	}
+	.enter_1_left p {
+		font-size: 35px;
+		padding: 7px 0px 0px 0px;
+	}
+	.enter_1_left sup {
+		font-size: 20px;
+		padding: 7px 0px 0px 0px;
+	}
+	.answer_decision {
+		font-size: 20px;
+	}
+}
+@media(max-width: 774px) {
+	.enter_1_right input{
+		font-size: 35px;
+		width: 90px;
+		margin: 10px 7px 0px 7px;
+	}
+	.enter_1_right nav {
+		font-size: 35px;
+	}
+	.enter_1_right div {
+		font-size: 55px;
+
+	}
+	.enter_1_right p {
+		margin: 0px;
+	}
+	.answer_decision_den div {
+		font-size: 30px;
+		margin: 3px;
+	}
+	.answer_decision_den sup {
+		font-size: 25px;
+		padding: 0px 0px 0px 5px;
+	}
+	.answer_decision_den .bracket {
+		font-size: 40px;
+	}
+}
+@media(max-width: 543px) {
+	.enter_1_right input {
+		font-size: 30px;
+		width: 80px;
+		border-radius: 7px;
+	}
+	.enter_1_right nav {
+		font-size: 30px;
+		margin: 7px 3px 0px 3px;
+	}
+	.enter_1_right div {
+		font-size: 50px;
+	}
+}
+@media(max-width: 453px) {
+	.enter_1_right input{
+		font-size: 25px;
+		width: 70px;
+		margin: 10px 7px 3px 7px;
+	}
+	.enter_1_right nav {
+		font-size: 25px;
+	}
+	.enter_1_right div {
+		font-size: 40px;
+
+	}
+	.enter_1_right p {
+		font-size: 40px;
+	}
+	.answer_decision_den div {
+		font-size: 25px;
+	}
+	.answer_decision_den .bracket {
+		font-size: 35px;
+		margin: 0px 0px 3px 0px;
+	}
+}
+@media(max-width: 390px) {
+	.enter_1_right input{
+		font-size: 20px;
+		width: 55px;
+		margin: 10px 7px 3px 7px;
+	}
+	.enter_1_right nav {
+		font-size: 20px;
+	}
+	.enter_1_right div {
+		font-size: 35px;
+	}
+	.answer_decision_den div {
+		font-size: 20px;
+	}
+	.answer_decision_den sup {
+		font-size: 20px;
+	}
+	.answer_decision_den .bracket {
+		font-size: 30px;
+		margin: 0px 0px 3px 0px;
+	}
+	.enter_1_right_decision .formula_text {
+		margin: 0px;
+	}
+	.button_rollUp1 {
+		margin: 10px 0px 10px 0px;
+		padding: 0px;
+	}
+}
+@media(max-width: 327px) {
+	.enter_1_right input{
+		font-size: 15px;
+		width: 40px;
+		border-radius: 5px;
+		margin: 10px 7px 3px 7px;
+	}
+	.enter_1_right nav {
+		font-size: 15px;
+	}
+	.enter_1_right div {
+		font-size: 30px;
+	}
+	.enter_1_right p {
+		font-size: 25px;
+		margin: 3px 0px 0px 0px;
+	}
+}

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta property="og:locale" content="ru_RU"> 
+	<meta property="og:type" content="article"> 
+	<meta property="og:title" content="Mathematicsolve, решит квадратное уравнение за тебя!">
+	<meta property="og:description" content="Сайт для решения формул по математике.">  
+	<meta property="og:image" content="img/MathematicsiIMG.png"> 
+	<meta property="og:site_name" content="Mathematicsolve, решит за тебя.">
+	<link rel="stylesheet" href="css/Mathem.css">
+	<link rel="stylesheet" href="css/MathemZero.css">
+	<link rel="stylesheet" href="css/Mathem1.css">
+	<meta name="viewport" content="width=device-widht,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="shortcut icon" href="img/MathematicsiIMG20.png">
+	<title>Mathematicsolve</title>
+</head>
+<body>
+	<div class="page">
+	<div class="left_display left_right" id="display_left">
+		<div class="label">
+			<img src="img/MathematicsiIMG.png" class="label_img" alt="Ярлык">
+		</div>
+		<div class="equations_panel">
+			<a href="#" id="quadratic_equation"><p>Квадратные уравнения</p></a>
+			<a href="#" id="abbreviated_multiplication"><p>Формулы сокращения</p></a>
+			<a href="#"><p>?????????? ?????????</p></a>
+			<a href="#"><p>?????????? ?????????</p></a>
+			<a href="#"><p>?????????? ?????????</p></a>
+			<a href="#"><p>?????????? ?????????</p></a>
+			<a href="#"><p>?????????? ?????????</p></a>
+			<a href="#"><p>?????????? ?????????</p></a>
+		</div>
+	</div>
+	<div class="right_block left_right" id="block100R">
+		<div class="quadratic_equation_1" id="quadratic_equation_1ID">
+			<div class="square_ellipsis_header">
+				<div class="ellipsis">
+					<a href="#">
+						<img src="img/troethochie.png" class="ellipsis_img" id="open_display">
+					</a>
+				</div> 
+				<div class="header">
+					<div class="square_header color" id="closD0">Квадратное уравнение</div>
+				</div>
+			</div>
+			 <div class="flex_block" id="closD1">
+				<div class="decision_equation">
+					<div class="equation_text">
+						Что бы решить его нужно вписать чему равен <p>a</p>, <p>b</p> и <p>c</p>.
+					</div>
+					<div class="enter_decision">
+						<div class="enter_center">
+						  <div><p>a=</p><input type="text" id="opA"></div>
+						  <div><p>b=</p><input type="text" id="opB"></div>
+						  <div><p>c=</p><input type="text" id="opC"></div>
+						</div>
+						<div class="solve_enter">
+							<div class="center_enter">
+								<button type="submit" id="decision_1" class="color_text">Решить</button>
+							</div>
+						</div>
+					</div>
+			 </div>
+			 <div class="example">
+					<h2>Например</h2>
+					<h3>4x<sup>2</sup>-1x-3=0</h3>
+					<h3>a=4, b=-1, c=-3</h3>
+					<h4>Или</h4>
+					<h3>x<sup>2</sup>-4x+4=0</h3>
+					<h3>a=1, b=-4, c=4</h3>
+				</div>
+			</div>
+		</div>
+<div class="problems_1" id="problems_1ID">Решение</div>
+<div class="solve_problems_1" id="solve_problems_1ID">
+	<div class="decision_D" id="dec_D"></div>
+	<div class="less_D" id="les_D"></div>
+	 <div class="flex">
+	 	<div class="onX" id="onX1"></div>
+		<div class="Xnum_1">
+			<div class="top" id="X1_top"></div>
+			<div class="bot" id="X1_bot"></div>
+		</div>
+		<div class="equally_X1" id="equallyX1"></div>
+		<div class="X1_top_bot">
+			<div class="top" id="X1TOP"></div>
+			<div class="bot" id="X1BOT"></div>
+		</div>
+		<div class="reduction_equallyX1" id="red_equallyX1"></div>
+		<div class="X1reduction_top_bot">
+			<div class="top" id="X1red_top"></div>
+			<div class="bot" id="X1red_bot"></div>
+		</div>
+	 </div>
+	 <div class="flex">
+		<div class="onX" id="onX2"></div>
+		<div class="Xnum_2">
+			<div class="top" id="X2_top"></div>
+			<div class="bot" id="X2_bot"></div>
+		</div>
+		<div class="equally_X2" id="equallyX2"></div>
+		<div class="X2_top_bot">
+			<div class="top" id="X2TOP"></div>
+			<div class="bot" id="X2BOT"></div>
+		</div>
+		<div class="reduction_equallyX2" id="red_equallyX2"></div>
+		<div class="X2reduction_top_bot">
+			<div class="top" id="X2red_top"></div>
+			<div class="bot" id="X2red_bot"></div>
+		</div>
+	 </div>
+</div>
+<div class="abbreviated_multiplication_formulas" id="abbreviated_multiplication_formulasID">
+	<div class="abbreviating_formulas color">Формулы сокращённого умножения</div>
+	<div class="select_formulas">
+		<a href="#" class="formulae" id="enableFormula1">a<sup>2</sup> - b<sup>2</sup></a>
+		<a href="#" class="formulae" id="enableFormula2">a<sup>3</sup> + b<sup>3</sup></a>
+		<a href="#" class="formulae" id="enableFormula3">(a + b)<sup>2</sup></a>
+		<a href="#" class="formulae" id="enableFormula4">(a + b)<sup>3</sup></a>
+	</div>
+	<div class="not_clicked" id="remove_tooltip">
+		<div class="img_not_click"><img src="img/вхкзщ-аелрп.png" class="img_not"></div>
+		<div class="not_clicked_text">Выберете одну из формул сокращённого умножения</div>
+	</div>
+	<div class="to_decide">Что-бы развернуть по формуле, нужно списать чему равен <span>a</span> и <span>b</span></div>
+	<div class="solve_using_formula1" id="solveUsing1">
+		<div class="collapse_expand1 collapse_expand">
+			<a href="#" class="collapse1" id="collapse_formula">Развернуть формулу</a>
+			<a href="#" class="expand1" id="expand_formula">Свернуть формулу</a>
+		</div>
+		<div class="collapse" id="collapse_block">
+			<div class="write_formula1 flex_none">
+				<div class="enter_the_formula enter_1_left">
+					<input type="text" id="left_side" autocomplete="off" maxlength="8"><sup>2</sup>
+					<p>-</p>
+					<input type="text" id="right_side" autocomplete="off" maxlength="8"><sup>2</sup>
+				</div>
+				<div class="solve_button_rollUp formula_enter_class">
+					<button type="sibmit" id="the_solve_button">Решить</button>
+				</div>
+			</div>
+			<div class="expand_the_formula expand">
+				<div class="formula_text expand_0">Решение</div>
+				<div class="solving_formula answer_decision">
+					<div class="bracket_formula_left bracket_formula" id="left_bracket1_0"></div>
+					<div class="plus_minus" id="plus_minus1"></div>
+					<div class="bracket_formula_right bracket_formula" id="right_bracket1_0"></div>
+					<div class="bracket_formula_left bracket_formula" id="left_bracket1_1"></div>
+					<div class="plus_formula" id="plus_formula1"></div>
+					<div class="bracket_formula_right bracket_formula" id="right_bracket1_1"></div>
+				</div>
+			</div>
+		</div>
+		<div class="rollUp" id="rollUp_block">
+			<div class="insert_rollUp flex_none">
+				<div class="enter_rollUp enter_1_right">
+					<div>(</div>
+					<input type="text" id="left_rollUp" autocomplete="off" maxlength="5">
+					<p class="minus_rollUp">-</p>
+					<input type="text" id="right_rollUp" autocomplete="off" maxlength="5">
+					<div>)</div>
+					<div>(</div>
+					<nav class="updated_rollUp_left" id="left_updated">?</nav>
+					<nav>+</nav>
+					<nav class="updated_rollUp_right" id="right_updated">?</nav>
+					<div>)</div>
+				</div>
+				<div class="solve_button_rollUp button_rollUp1 formula_enter_class">
+					<button type="sibmit" id="button_rollUp">Решить</button>
+				</div>
+			</div>
+			<div class="decision_rollup enter_1_right_decision expand">
+				<p class="formula_text">Решение</p>
+				<div class="answer_decision_rollup_inline_block answer_decision_den">
+					<div class="answer_decision_rollup">
+						<div class="left_bracket bracket" id="left_bracketID"></div>
+						<div class="left_number number" id="bot_left"></div>
+						<sup class="left_two" id="left_two_top"></sup>
+						<div class="minus_center" id="minus_CENTER"></div>
+						<div class="right_number number" id="bot_right"></div>
+						<sup class="right_two" id="right_two_top"></sup>
+						<div class="right_bracket bracket" id="right_bracketID"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="solve_using_formula3" id="solveUsing2">
+		<div class="collapse_expand2 collapse_expand">
+			<a href="#" class="collapse2" id="plus_or_minus1">Развернуть формулу</a>
+			<a href="#" class="expand2" id="plus_or_minus2">Свернуть формулу</a>
+		</div>
+		<div class="plus_or_minus" id="plus_or_minusID">
+			<div class="collapse">
+				<div class="write_formula flex_none">
+					<div class="enter_the_formula">
+						<input class="inp1" type="text" autocomplete="off" id="cube_text_left" maxlength="5"><sup>3</sup>
+						<div class="center_plus_minus">
+							<a href="#" class="plus_block font" id="change_onPlus">+</a>
+							<span id="change_minus_or_plus">?</span>
+							<a href="#" class="minus_block font" id="change_onMinus">-</a>
+						</div>
+						<input class="inp1" type="text" autocomplete="off" id="cube_text_right" maxlength="5"><sup>3</sup>
+					</div>
+					<div class="solve_specified_formula formula_enter_class">
+						<button type="submit" id="cube_solve">Решить</button>
+					</div>
+				</div>
+				<div class="decision_rollup expand">
+				<p class="formula_text">Решение</p>
+					<div class="answer_decision_rollup_inline_block">
+						<div class="answer_decision_rollup">
+							<div class="bracket_left_1" id="bracket_left_short"></div>
+							<div class="short_number_left number_wight" id="left_num1"></div>
+							<div class="minus_end_plus" id="minus_plus1"></div>
+							<div class="short_number_right number_wight" id="right_num1"></div>
+							<div class="bracket_right_1" id="bracket_right_short"></div>
+							<div class="bracket_left_2" id="bracket_left"></div>
+							<div class="number_left number_wight" id="left_num_2"></div><sup id="sup_text_1"></sup>
+							<div class="minus_end_plus" id="minus_plus2"></div>
+							<div class="number_center number_wight" id="center_num_2"></div>
+							<div class="end_plus" id="formula_plus"></div>
+							<div class="number_rgiht number_wight" id="right_num_2"></div><sup id="sup_text_2"></sup>
+							<div class="bracket_right_2" id="bracket_right"></div>
+						</div>
+					</div>
+				</div>
+		 	</div>
+		</div>
+		<div class="roll_up_plus_or_minus" id="roll_up_plus_or_minusID">
+			<div class="insert_rollUp flex_none">
+				<div class="enter_rollUp mall_block">
+					<div>(</div>
+					<input type="text" autocomplete="off" id="separate_text_left" maxlength="4">
+					<div class="center_plus_minus">
+						<a href="#" class="plus_block font" id="plus_enter">+</a>
+						<span class="change_minus" id="plus_minus_enter">?</span>
+						<a href="#" class="minus_block font" id="minus_enter">-</a>
+					</div>
+					<input type="text" autocomplete="off" id="separate_text_right" maxlength="4">
+					<div>)</div>
+					<div>(</div>
+					<nav class="updated_rollUp_left mall" id="left_number_text">?</nav><sup id="insert_left"></sup>
+					<nav id="update_plus_minus" class="update_p_l mall">±</nav>
+					<nav class="updated_rollUp_left mall" id="center_number_text">??</nav>
+					<nav class="mall">+</nav>
+					<nav class="updated_rollUp_right mall" id="right_number_text">?</nav><sup id="insert_right"></sup>
+					<div>)</div>
+				</div>
+				<div class="solve_button_rollUp solve_button_rollUp_mall formula_enter_class">
+					<button type="sibmit" id="cube_roll_up">Решить</button>
+				</div>
+			</div>
+			<div class="decision_rollup">
+				<p class="formula_text">Решение</p>
+				<div class="answer_decision_rollup_inline_block">
+					<div class="answer_decision_rollup">
+						<div class="bracket_left_1" id="bracket_left3"></div>
+						<div class="short_number_left number_wight" id="number_left_3"></div><sup id="sup_left"></sup>
+						<div class="minus_end_plus" id="minus_end_plus_3"></div>
+						<div class="short_number_right number_wight" id="number_right_3"></div><sup id="sup_right"></sup>
+						<div class="bracket_right_1" id="bracket_right3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="solve_using_formula3" id="solveUsing3">
+		<div class="collapse_expand3 collapse_expand">
+			<a href="#" class="collapse3" id="deploy_two_formul">Развернуть формулу</a>
+			<a href="#" class="expand3" id="rollUp_two_formul">Свернуть формулу</a>
+		</div>
+	  <div class="collapse" id="collapse_two_ID">
+		<div class="insert_rollUp flex_none">
+				<div class="enter_rollUp enter_rollUp_nub">
+					<div>(</div>
+					<input type="text" autocomplete="off" id="brackets_two_formul_left" maxlength="5">
+					<span>±</span>
+					<input type="text" autocomplete="off" id="brackets_two_formul_right" maxlength="5">
+					<div>)</div>
+					<sup class="two_formul">2</sup>
+				</div>
+				<div class="solve_button_rollUp formula_enter_class">
+					<button type="sibmit" id="brackets_two_formul">Решить</button>
+				</div>
+		</div>
+		<div class="decision_rollup">
+			<p class="formula_text">Решение</p>
+			<div class="answer_decision_rollup_inline_block">
+				<div class="answer_decision_rollup">
+					<div class="left_numBrecket" id="left_num_brecket"></div>
+					<div class="left_num_two" id="left_two_formul"></div><sup class="two_2" id="two_formul_left"></sup>
+					<div class="minus_end_plus_two retreat" id="minus_plus_two"></div>
+					<div class="center_num_two" id="center_two_formul"></div>
+					<div class="plus_two retreat" id="plus_two_formul"></div>
+					<div class="right_num_two" id="right_two_formul"></div><sup class="two_2" id="two_formul_right"></sup>
+					<div class="right_numBrecket" id="right_num_brecket"></div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	  <div class="roll_up_two_formul" id="roll_up_two_formulID">
+			<div class="insert_rollUp flex_none">
+				<div class="enter_rollUp">
+					<div>(</div>
+					<input type="text" autocomplete="off" id="left_formul_two" maxlength="5">
+					<div class="plus_end_ninus_two small">±</div>
+					<div class="number_two small" id="change_number_two">??</div>
+					<div class="plus small">+</div>
+					<input type="text" autocomplete="off" id="right_formul_two" maxlength="5">
+					<div>)</div>
+				</div>
+				<div class="solve_button_rollUp formula_enter_class">
+					<button type="sibmit" id="rollUp_formul_two">Решить</button>
+				</div>
+			</div>
+			<div class="decision_rollup">
+				<p class="formula_text">Решение</p>
+				<div class="answer_decision_rollup_inline_block">
+					<div class="answer_decision_rollup">
+						<div class="bracket_left_rollUp" id="bracket_left_rollUp_form"></div>
+						<div class="number_text_rollUp_left" id="number_text_rollUp_left_form"></div>
+						<div class="plus_minus_rollUp retreat" id="plus_minus_rollUp_form"></div>
+						<div class="number_text_rollUp_right" id="number_text_rollUp_right_form"></div>
+						<div class="bracket_right_rollUp" id="bracket_right_rollUp_form"></div>
+						<sup class="two_2" id="two_top_formul"></sup>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="solve_using_formula4" id="solveUsing4">
+		<div class="collapse_expand4 collapse_expand">
+			<a href="#" class="collapse4" id="enter_collapse_cube_furmul">Развернуть формулу</a>
+			<a href="#" class="expand4" id="enter_roll_up_cube_formul">Свернуть формулу</a>
+		</div>
+      <div class="collapse" id="collapse_cube_furmul">
+		<div class="insert_rollUp flex_none">
+				<div class="enter_rollUp enter_rollUp_nub">
+					<div>(</div>
+					<input type="text" autocomplete="off" maxlength="4" id="cube_bracket_formul_left">
+					<div class="center_plus_minus">
+						<a href="#" class="plus_block font" id="plus_enter1">+</a>
+						<span class="change_minus" id="plus_minus_enter1">?</span>
+						<a href="#" class="minus_block font" id="minus_enter1">-</a>
+					</div>
+					<input type="text" autocomplete="off" maxlength="4" id="cube_bracket_formul_right">
+					<div>)</div>
+					<sup class="two_formul">3</sup>
+				</div>
+				<div class="solve_button_rollUp formula_enter_class">
+					<button type="sibmit" id="enter_cube_bracket_formul">Решить</button>
+				</div>
+		</div>
+		<div class="decision_rollup">
+			<p class="formula_text">Решение</p>
+			<div class="answer_decision_rollup_inline_block">
+				<div class="answer_decision_rollup">
+					<div id="number_cube_1"></div>
+					<sup class="two_2" id="top_two_cube1"></sup>
+					<div class="retreat" id="plus1_minus"></div>
+					<div id="number_cube_2"></div>
+					<sup class="two_2" id="top_two_cube2"></sup>
+					<div id="number_cube_3"></div>
+					<div class="retreat" id="plus2_minus"></div>
+					<div id="number_cube_4"></div>
+					<sup class="two_2" id="top_two_cube3"></sup>
+					<div class="retreat" id="plus3_minus"></div>
+					<div id="number_cube_5"></div>
+					<sup class="two_2" id="top_two_cube4"></sup>
+				</div>
+			</div>
+		</div>
+	  </div>
+	  <div class="roll_up_two_formul" id="roll_up_cube_formul">
+			<div class="insert_rollUp flex_none">
+				<div class="enter_rollUp">
+					<div>(</div>
+					<input type="text" autocomplete="off"  maxlength="4" id="roll_up_cube_left">
+					<sup class="two_formul">3</sup>
+					<div class="plus_end_ninus_two small">±</div>
+					<div class="number_two small" id="cube_left1">?</div>
+					<sup class="two_2" id="square_left_cube">2</sup>
+					<div class="number_two small" id="cube_left2">?</div>
+					<div class="small">+</div>
+					<div class="small" id="cube_right">??</div>
+					<sup class="two_2" id="square_right_cube">2</sup>
+					<div class="plus small">±</div>
+					<input type="text" autocomplete="off" maxlength="4" id="roll_up_cube_right">
+					<sup class="two_formul">3</sup>
+					<div>)</div>
+				</div>
+				<div class="solve_button_rollUp formula_enter_class">
+					<button type="sibmit" id="enter_roll_up_cube">Решить</button>
+				</div>
+			</div>
+			<div class="decision_rollup">
+				<p class="formula_text">Решение</p>
+				<div class="answer_decision_rollup_inline_block">
+					<div class="answer_decision_rollup">
+						<div id="bracket_cube_left"></div>
+						<div id="number_left_cube"></div>
+						<div class="retreat" id="plus_minus_cube"></div>
+						<div id="number_right_cube"></div>
+						<div id="bracket_cube_right"></div>
+						<sup class="two_2" id="two_cube_top"></sup>
+					</div>
+				</div>
+			</div>
+      </div>
+	</div>
+	<script src="js/Mathem.js"></script>
+	<script src="js/Mathem1.js"></script>
+</div>
+</div>	
+</div>
+</body>
+</html>
