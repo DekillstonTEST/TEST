@@ -31,16 +31,19 @@
 .select_formulas {
 	display: flex;
 	justify-content: space-around;
-	background-color: #4682B4;
 }
 .select_formulas a {
+	display: block;
+	padding: 20px 0px 20px 0px;
 	font-size: 45px;
 	color: #000000;
+}
+.select_formulas div {
 	border-right: 1px solid #00008B;
 	border-left: 1px solid #00008B;
 	flex-grow: 1;
 	text-align: center;
-	padding: 20px 0px 20px 0px;
+	background-color: #4682B4;
 }
 .formulae:hover {
 	background-color: #9370DB;
@@ -359,17 +362,12 @@
 	}
 }
 @media(max-width: 300px) {
-	.select_formulas a {
-		font-size: 20px;
+	.select_formulas {
+		display: block;
 	}
-}
-@media(max-width: 243px) {
 	.select_formulas a {
-		font-size: 15px;
-	}
-}
-@media(max-width: 186px) {
-	.select_formulas a {
-		font-size: 10px;
+		font-size: 40px;
+		border-bottom: 1px solid #00008B;
+		border-top: 1px solid #00008B;
 	}
 }
