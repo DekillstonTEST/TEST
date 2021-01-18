@@ -330,6 +330,11 @@
 		font-size: 30px;
 	}
 }
+@media(max-width: 312px) {
+	.abbreviating_formulas {
+		font-size: 25px;
+	}
+}
 /* Выбор формулы */ 
 @media(max-width: 1197px) {
 	.select_formulas a {
@@ -356,5 +361,10 @@
 @media(max-width: 300px) {
 	.select_formulas a {
 		font-size: 20px;
+	}
+}
+@media(max-width: 243px) {
+	.select_formulas a {
+		font-size: 15px;
 	}
 }
