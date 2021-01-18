@@ -368,3 +368,8 @@
 		font-size: 15px;
 	}
 }
+@media(max-width: 186px) {
+	.select_formulas a {
+		font-size: 10px;
+	}
+}
