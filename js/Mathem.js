@@ -2324,4 +2324,4 @@ solveButton.onclick = function decisionFormulas() {
 		reallocation(leftSide, rightSide);
 	}
 }
-// brackets_two_formul_left left_formul_two
+//

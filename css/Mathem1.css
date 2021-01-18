@@ -288,585 +288,73 @@
 	display: flex;
 	margin: 0px 0px 0px 20px;
 }
-/* Первая фермула */
-@media(max-width: 1254px) {
-	.enter_1_right input {
-		width: 104px;
-		font-size: 40px;
-	}
-	.enter_1_right nav {
-		font-size: 40px;
-	}
-	.enter_1_right_decision p {
-		font-size: 50px;
+/* Заголовок */
+@media(max-width: 1293px) {
+	.abbreviating_formulas {
+		font-size: 65px;
 	}
 }
-@media(max-width: 1050px) {
-	.flex_none {
-		display: block;
-	}
-	.button_rollUp1 {
-		padding: 0px 0px 0px 20px;
-	}
-	.formula_enter_class {
-		min-width: 0%;
-		display: block;
-		margin: 20px 0px 20px 0px;
-	}
-	.formula_enter_class button {
-		font-size: 55px;
-	}
-	.answer_decision {
-		font-size: 40px;
-	}
-	.expand_0 {
-		font-size: 50px;
-	}
-	.expand p {
-		font-size: 50px;
-	}
-	.enter_1_left input {
-		font-size: 45px;
-		width: 193px;
-	}
-
-}
-@media(max-width: 495px) {
-	.enter_1_left input {
-		font-size: 40px;
-		width: 155px;
-	}
-	.enter_1_left sup {
-		font-size: 40px;
-	}
-	.formula_enter_class button {
-		font-size: 50px;
-	}
-}
-@media(max-width: 414px) {
-	.enter_1_left input {
-		font-size: 30px;
-		width: 125px;
-	}
-	.enter_1_left sup {
-		font-size: 30px;
-	}
-	.formula_enter_class button {
-		font-size: 45px;
-	}
-	.expand_0 {
-		font-size: 45px;
-	}
-	.expand p {
-		font-size: 45px;
-	}
-	.answer_decision {
-		font-size: 30px;
-	}
-	.enter_1_left p {
-		margin: 7px 10px 0px 0px; 
-	}
-	.write_formula1 {
-		margin: 0px;
-	}
-	.expand {
-		margin: 0px;
-	}
-	.expand_0 {
-		margin: 0px 0px 10px 0px;
-	}
-}
-@media(max-width: 306px) {
-	.enter_1_left input {
-		font-size: 25px;
-		width: 100px;
-		border-radius: 7px;
-	}
-	.formula_enter_class button {
-		font-size: 40px;
-		border-radius: 7px;
-	}
-	.expand_0 {
-		font-size: 40px;
-	}
-	.expand p {
-		font-size: 40px;
-	}
-	.answer_decision {
-		font-size: 25px;
-	}
-	.enter_1_left sup {
-		font-size: 25px;
-		padding: 5px 0px 0px 0px;
-	}
-}
-@media(max-width: 252px) {
-	.enter_1_left input {
-		font-size: 20px;
-		width: 80px;
-		border-radius: 5px;
-	}
-	.formula_enter_class button {
-		font-size: 35px;
-	}
-	.expand_0 {
-		font-size: 35px;
-	}
-	.expand p {
-		font-size: 35px;
-	}
-	.answer_decision {
-		font-size: 25px;
-	}
-	.enter_1_left p {
-		font-size: 35px;
-		padding: 7px 0px 0px 0px;
-	}
-	.enter_1_left sup {
-		font-size: 20px;
-		padding: 7px 0px 0px 0px;
-	}
-	.answer_decision {
-		font-size: 20px;
-	}
-}
-@media(max-width: 774px) {
-	.enter_1_right input{
-		font-size: 35px;
-		width: 90px;
-		margin: 10px 7px 0px 7px;
-	}
-	.enter_1_right nav {
-		font-size: 35px;
-	}
-	.enter_1_right div {
-		font-size: 55px;
-
-	}
-	.enter_1_right p {
-		margin: 0px;
-	}
-	.answer_decision_den div {
-		font-size: 30px;
-		margin: 3px;
-	}
-	.answer_decision_den sup {
-		font-size: 25px;
-		padding: 0px 0px 0px 5px;
-	}
-	.answer_decision_den .bracket {
-		font-size: 40px;
-	}
-}
-@media(max-width: 543px) {
-	.enter_1_right input {
-		font-size: 30px;
-		width: 80px;
-		border-radius: 7px;
-	}
-	.enter_1_right nav {
-		font-size: 30px;
-		margin: 7px 3px 0px 3px;
-	}
-	.enter_1_right div {
-		font-size: 50px;
-	}
-}
-@media(max-width: 453px) {
-	.enter_1_right input{
-		font-size: 25px;
-		width: 70px;
-		margin: 10px 7px 3px 7px;
-	}
-	.enter_1_right nav {
-		font-size: 25px;
-	}
-	.enter_1_right div {
-		font-size: 40px;
-
-	}
-	.enter_1_right p {
-		font-size: 40px;
-	}
-	.answer_decision_den div {
-		font-size: 25px;
-	}
-	.answer_decision_den .bracket {
-		font-size: 35px;
-		margin: 0px 0px 3px 0px;
-	}
-}
-@media(max-width: 390px) {
-	.enter_1_right input{
-		font-size: 20px;
-		width: 55px;
-		margin: 10px 7px 3px 7px;
-	}
-	.enter_1_right nav {
-		font-size: 20px;
-	}
-	.enter_1_right div {
-		font-size: 35px;
-	}
-	.answer_decision_den div {
-		font-size: 20px;
-	}
-	.answer_decision_den sup {
-		font-size: 20px;
-	}
-	.answer_decision_den .bracket {
-		font-size: 30px;
-		margin: 0px 0px 3px 0px;
-	}
-	.enter_1_right_decision .formula_text {
-		margin: 0px;
-	}
-	.button_rollUp1 {
-		margin: 10px 0px 10px 0px;
-		padding: 0px;
-	}
-}
-@media(max-width: 327px) {
-	.enter_1_right input{
-		font-size: 15px;
-		width: 40px;
-		border-radius: 5px;
-		margin: 10px 7px 3px 7px;
-	}
-	.enter_1_right nav {
-		font-size: 15px;
-	}
-	.enter_1_right div {
-		font-size: 30px;
-	}
-	.enter_1_right p {
-		font-size: 25px;
-		margin: 3px 0px 0px 0px;
-	}
-}
-/* Третья формула*/
-@media(max-width: 744px) {
-	.enter_2_left input {
-		font-size: 50px;
-		width: 130px;
-	}
-	.enter_2_left .center_plus_minus {
-		margin: 0px 15px 0px 0px;
-		padding: 15px 0px 0px 0px;
-	}
-	.enter_2_left_decision div {
-		font-size: 45px;
-	}
-}
-@media(max-width: 576px) {
-	.enter_2_left_decision div {
-		font-size: 40px;
-	}
-	.enter_2_left_decision sup {
-		font-size: 30px;
-	}
-}
-@media(max-width: 522px) {
-	.enter_2_left_decision div {
-		font-size: 35px;
-	}
-}
-@media(max-width: 483px) {
-	.enter_2_left input {
-		font-size: 45px;
-		width: 115px;
-	}
-	.enter_2_left_decision sup {
-		font-size: 25px;
-	}
-	.enter_2_left_decision div {
-		font-size: 30px;
-	}
-}
-@media(max-width: 453px) {
-	.enter_2_left input {
-		font-size: 40px;
-		width: 105px;
-	}
-}
-@media(max-width: 432px) {
-	.enter_2_left {
-		margin: 0px;
-	}
-	.enter_2_left_decision p {
-		margin: 0px;
-	}
-	.enter_2_left input {
-		font-size: 35px;
-		width: 90px;
-	}
-	.enter_2_left sup {
-		font-size: 30px;
-		padding: 4px 0px 0px 0px;
-	}
-	.enter_2_left .center_plus_minus a {
-		width: 40px;
-		font-size: 25px;
-	}
-	.enter_2_left .center_plus_minus span {
-		font-size: 35px;
-	}
-	.enter_2_left_decision div {
-		margin: 0px 2px 0px 2px;
-	}
-	.enter_2_left_decision sup {
-		margin: 0px 0px 20px 0px;
-	}
-}
-@media(max-width: 375px) {
-	.enter_2_left_decision div {
-		font-size: 25px;
-	}
-} 
-@media(max-width: 375px) {
-	.enter_2_left input {
-		font-size: 30px;
-		width: 80px;
-	}
-	.enter_2_left .center_plus_minus a {
-		width: 35px;
-		font-size: 20px;
-	}
-	.enter_2_left .center_plus_minus span {
-		font-size: 30px;
-	}
-	.enter_2_left .center_plus_minus {
-		padding: 18px 0px 0px 0px;
-	}
-}
-@media(max-width: 321px) {
-	.enter_2_left_decision div {
-		font-size: 20px;
-	}
-	.enter_2_left_decision sup {
-		font-size: 20px;
-		margin: 0px 0px 15px 0px;
-	}
-}
-@media(max-width: 309px) {
-	.enter_2_left input {
-		font-size: 25px;
-		width: 67px;
-		border-radius: 7px;
-	}
-	.enter_2_left sup {
-		font-size: 25px;
-	}
-	.enter_2_left .center_plus_minus span{
-		margin: 0px 3px 0px 3px;
-	}
-}
-@media(max-width: 270px) {
-	.enter_2_left input {
-		font-size: 20px;
-		width: 55px;
-		border-radius: 7px;
-	}
-	.enter_2_left sup {
-		font-size: 22px;
-		padding: 6px 0px 0px 0px;
-	}
-	.enter_2_left .center_plus_minus a {
-		width: 27px;
-		font-size: 17px;
-	}
-	.enter_2_left .center_plus_minus span {
-		font-size: 25px;
-	}
-	.enter_2_left_decision div {
-		font-size: 17px;
-	}
-	.enter_2_left_decision sup {
-		font-size: 15px;
-		margin: 0px 0px 13px 0px;
-	}
-}
-/* Чётвертая формула */
-@media(max-width: 1644px) {
-	.enter_2_right input {
-		font-size: 45px;
-		width: 100px;
-	}
-	.mall_block div {
+@media(max-width: 1200px) {
+	.abbreviating_formulas {
 		font-size: 60px;
 	}
-	.mall_block nav {
-		font-size: 45px;
-	}
-	.mall_block .center_plus_minus span {
-		font-size: 40px;
-	}
-	.mall_block .center_plus_minus a {
-		font-size: 30px;
-
-	}
 }
-@media(max-width: 1488px) {
-	.enter_2_right input {
-		font-size: 40px;
-		width: 85px;
-		margin: 10px 0px 0px 0px;
-	}
-	.mall_block div {
+@media(max-width: 1110px) {
+	.abbreviating_formulas {
 		font-size: 55px;
 	}
-	.mall_block nav {
-		font-size: 40px;
-	}
-	.mall_block sup {
-		font-size: 35px;
-	}
-	.mall_block .center_plus_minus span {
-		font-size: 35px;
-	}
-	.mall_block .center_plus_minus a {
-		font-size: 25px;
-		width: 40px;
-		height: 25px;
-	}
 }
-@media(max-width: 1299px) {
-	.enter_2_right input {
-		font-size: 35px;
-		width: 75px;
-		margin: 10px 0px 0px 0px;
-	}
-	.mall_block div {
+@media(max-width: 1020px) {
+	.abbreviating_formulas {
 		font-size: 50px;
-	}
-	.mall_block nav {
-		font-size: 35px;
-	}
-	.mall_block sup {
-		font-size: 30px;
-	}
-	.mall_block .center_plus_minus span {
-		font-size: 30px;
-		margin: 5px;
-	}
-	.mall_block .center_plus_minus a {
-		font-size: 20px;
-		width: 35px;
-		height: 20px;
+		padding: 5px 0px 5px 0px;
 	}
 }
-@media(max-width: 1167px) {
-	.enter_2_right {
-		display: block;
-	}
-	.solve_button_rollUp_mall {
-		display: block;
-		margin: 20px 0px 0px 20px;
-	}
-}
-@media(max-width: 942px) {
-	.enter_2_right input {
-		font-size: 30px;
-		width: 65px;
-		margin: 7px 0px 0px 0px;
-	}
-	.mall_block div {
+@media(max-width: 906px) {
+	.abbreviating_formulas {
 		font-size: 45px;
 	}
-	.mall_block nav {
-		font-size: 30px;
-	}
-	.mall_block sup {
-		font-size: 25px;
-	}
 }
-@media(max-width: 840px) {
-	.enter_2_right input {
-		font-size: 25px;
-		width: 65px;
-		border-radius: 7px;
-	}
-	.mall_block div {
+@media(max-width: 693px) {
+	.abbreviating_formulas {
 		font-size: 40px;
 	}
-	.mall_block nav {
-		font-size: 25px;
-		margin: 7px 0px 0px 0px;
-	}
-	.mall_block sup {
-		font-size: 20px;
-		margin: 0px 0px 10px 1px;
-	}
-	.update_p_l {
-		padding: 3px;
-	}
 }
-@media(max-width: 723px) {
-	.enter_2_right input {
-		font-size: 20px;
-		width: 44px;
-		border-radius: 7px;
-	}
-	.mall_block div {
+@media(max-width: 417px) {
+	.abbreviating_formulas {
 		font-size: 35px;
 	}
-	.mall_block nav {
-		font-size: 20px;
-	}
-	.mall_block sup {
-		font-size: 15px;
-		margin: 0px 0px 6px 1px;
-	}
-	.mall_block .center_plus_minus span {
-		font-size: 20px;
-	}
-	.mall_block .center_plus_minus a {
-		font-size: 15px;
-		width: 25px;
-		height: 15px;
-		border-radius: 3px;
-	}
-	.mall_block .center_plus_minus {
-		margin: 7px 3px 0px 3px;
-	}
 }
-@media(max-width: 465px) {
-	.enter_2_right input {
-		font-size: 15px;
-		width: 35px;
-		border-radius: 4px;
-	}
-	.mall_block div {
+@media(max-width: 363px) {
+	.abbreviating_formulas {
 		font-size: 30px;
 	}
-	.mall_block nav {
-		font-size: 15px;
-	}
-	.mall_block sup {
-		font-size: 10px;
+}
+/* Выбор формулы */ 
+@media(max-width: 1197px) {
+	.select_formulas a {
+		padding: 10px 0px 10px 0px;
+		font-size: 40px;
 	}
 }
-@media(max-width: 381px) {
-	.enter_2_right input {
-		font-size: 10px;
-		width: 25px;
-		border-radius: 4px;
+@media(max-width: 738px) {
+	.select_formulas a {
+		font-size: 35px;
 	}
-	.mall_block div {
+}
+@media(max-width: 417px) {
+	.select_formulas a {
+		padding: 5px 0px 5px 0px;
+		font-size: 30px;
+	}
+}
+@media(max-width: 357px) {
+	.select_formulas a {
 		font-size: 25px;
 	}
-	.mall_block nav {
-		font-size: 10px;
-	}
-	.mall_block sup {
-		font-size: 5px;
-	}
-	.mall_block .center_plus_minus span {
-		font-size: 10px;
-	}
-	.mall_block .center_plus_minus a {
-		font-size: 10px;
-		width: 15px;
-		height: 10px;
+}
+@media(max-width: 300px) {
+	.select_formulas a {
+		font-size: 20px;
 	}
 }
