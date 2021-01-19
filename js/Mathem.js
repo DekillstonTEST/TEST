@@ -1,4 +1,4 @@
-// Переключение
+// Переключение abbreviated_multiplication
 var quadraticEquation = document.getElementById('quadratic_equation');
 var abbreviatedMultiplication = document.getElementById('abbreviated_multiplication');
 quadraticEquation.onclick = function quadraticEquationFUN() {
@@ -20,6 +20,19 @@ abbreviatedMultiplication.onclick = function abbreviatedMultiplicationFUN() {
 	solveProblems1ID.style.display = 'none';
 	var abbreviatedMultiplicationFormulasID = document.getElementById('abbreviated_multiplication_formulasID');
 	abbreviatedMultiplicationFormulasID.style.display = 'block';
+		function AbbreviationOfWordsFUN() {
+		var AbbreviationOfWords = window.screen.width;
+		var Abbreviation1 = document.getElementById('collapse_formula');
+		var Abbreviation2 = document.getElementById('expand_formula');
+		if(AbbreviationOfWords <= 420) {
+			Abbreviation1.textContent = 'Развернуть';
+			Abbreviation2.textContent = 'Свернуть';
+		} else {
+			Abbreviation1.textContent = 'Развернуть формулу';
+			Abbreviation2.textContent = 'Свернуть формулу';
+		}
+}
+setInterval(AbbreviationOfWordsFUN, 500);
 }
 //		
 // Функция которая чистит
@@ -2324,4 +2337,3 @@ solveButton.onclick = function decisionFormulas() {
 		reallocation(leftSide, rightSide);
 	}
 }
-//

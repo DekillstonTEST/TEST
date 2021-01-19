@@ -384,3 +384,33 @@
 		font-size: 30px;
 	}
 }
+/* Развернуть и свернуть */
+@media(max-width: 969px) {
+	.collapse_expand {
+		font-size: 33px;
+	}
+	.collapse_expand a {
+		margin: 10px 3px 10px 3px;
+		padding: 5px 0px 5px 0px;
+	}
+}
+@media(max-width: 591px) {
+	.collapse_expand {
+		font-size: 30px;
+	}
+}
+@media(max-width: 540px) {
+	.collapse_expand {
+		font-size: 25px;
+	}
+}
+@media(max-width: 453px) {
+	.collapse_expand {
+		font-size: 20px;
+	}
+}
+@media(max-width: 420px) {
+	.collapse_expand {
+		font-size: 25px;
+	}
+}
