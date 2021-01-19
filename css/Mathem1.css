@@ -374,3 +374,13 @@
 		margin: 0px;
 	}
 }
+/* Стрелка */
+@media(max-width: 447px) {
+	.img_not {
+		width: 100px;
+		height: 60px;
+	}
+	.not_clicked_text {
+		font-size: 30px;
+	}
+}

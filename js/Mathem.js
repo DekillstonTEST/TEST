@@ -2325,15 +2325,3 @@ solveButton.onclick = function decisionFormulas() {
 	}
 }
 //
-/*
-function selectFormulasFUN() {
-	var selectFormulasID = document.getElementById('select_formulasID');
-	var selectFormulasIDwidth = window.screen.width;
-	if(selectFormulasIDwidth <= 360) {
-		selectFormulasID.style.display = 'block';
-	} else {
-		selectFormulasID.style.display = 'flex';
-	}
-}
-setInterval(selectFormulasFUN, 100)
-*/
