@@ -2325,6 +2325,7 @@ solveButton.onclick = function decisionFormulas() {
 	}
 }
 //
+/*
 function selectFormulasFUN() {
 	var selectFormulasID = document.getElementById('select_formulasID');
 	var selectFormulasIDwidth = window.screen.width;
@@ -2335,3 +2336,4 @@ function selectFormulasFUN() {
 	}
 }
 setInterval(selectFormulasFUN, 100)
+*/

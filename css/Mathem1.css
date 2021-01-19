@@ -359,14 +359,11 @@
 		margin: 0px;
 	}
 }
-@media(max-width: 357px) {
+@media(max-width: 360px) {
 	.select_formulas a {
 		font-size: 25px;
 		margin: 0px;
 	}
-}
-/*
-@media(max-width: 300px) {
 	.select_formulas {
 		display: block;
 	}
@@ -377,4 +374,3 @@
 		margin: 0px;
 	}
 }
-*/
