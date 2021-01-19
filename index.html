@@ -113,7 +113,7 @@
 	 </div>
 </div>
 <div class="abbreviated_multiplication_formulas" id="abbreviated_multiplication_formulasID">
-	<div class="abbreviating_formulas color" align="left">Формулы сокращённого умножения</div>
+	<div class="abbreviating_formulas color">Формулы сокращённого умножения</div>
 	<div class="select_formulas" id="select_formulasID">
 		<div><a href="#" class="formulae formulae1" id="enableFormula1">a<sup>2</sup> - b<sup>2</sup></a></div>
 		<div><a href="#" class="formulae formulae2" id="enableFormula2">a<sup>3</sup> + b<sup>3</sup></a></div>
@@ -131,17 +131,17 @@
 			<a href="#" class="expand1" id="expand_formula">Свернуть формулу</a>
 		</div>
 		<div class="collapse" id="collapse_block">
-			<div class="write_formula1 flex_none">
-				<div class="enter_the_formula enter_1_left">
-					<input type="text" id="left_side" autocomplete="off" maxlength="8"><sup>2</sup>
+			<div class="write_formula1 flex_none formula_num_1">
+				<div class="enter_the_formula">
+					<input type="text" id="left_side" autocomplete="off" maxlength="7"><sup>2</sup>
 					<p>-</p>
-					<input type="text" id="right_side" autocomplete="off" maxlength="8"><sup>2</sup>
+					<input type="text" id="right_side" autocomplete="off" maxlength="7"><sup>2</sup>
 				</div>
-				<div class="solve_button_rollUp formula_enter_class">
+				<div class="solve_button_rollUp formula_enter_class formula_num_1_solve">
 					<button type="sibmit" id="the_solve_button">Решить</button>
 				</div>
 			</div>
-			<div class="expand_the_formula expand">
+			<div class="expand_the_formula expand formula_num_1_expand">
 				<div class="formula_text expand_0">Решение</div>
 				<div class="solving_formula answer_decision">
 					<div class="bracket_formula_left bracket_formula" id="left_bracket1_0"></div>
@@ -154,8 +154,8 @@
 			</div>
 		</div>
 		<div class="rollUp" id="rollUp_block">
-			<div class="insert_rollUp flex_none">
-				<div class="enter_rollUp enter_1_right">
+			<div class="insert_rollUp flex_none formula_num_2_solve">
+				<div class="enter_rollUp formula_num_2">
 					<div>(</div>
 					<input type="text" id="left_rollUp" autocomplete="off" maxlength="5">
 					<p class="minus_rollUp">-</p>
@@ -167,11 +167,11 @@
 					<nav class="updated_rollUp_right" id="right_updated">?</nav>
 					<div>)</div>
 				</div>
-				<div class="solve_button_rollUp button_rollUp1 formula_enter_class">
+				<div class="solve_button_rollUp button_rollUp1 formula_enter_class UP_formula">
 					<button type="sibmit" id="button_rollUp">Решить</button>
 				</div>
 			</div>
-			<div class="decision_rollup enter_1_right_decision expand">
+			<div class="decision_rollup enter_1_right_decision expand formula_num_2_expand">
 				<p class="formula_text">Решение</p>
 				<div class="answer_decision_rollup_inline_block answer_decision_den">
 					<div class="answer_decision_rollup">
@@ -194,7 +194,7 @@
 		</div>
 		<div class="plus_or_minus" id="plus_or_minusID">
 			<div class="collapse">
-				<div class="write_formula flex_none enter_2_left">
+				<div class="write_formula flex_none">
 					<div class="enter_the_formula">
 						<input class="inp1" type="text" autocomplete="off" id="cube_text_left" maxlength="5"><sup>3</sup>
 						<div class="center_plus_minus">
@@ -230,7 +230,7 @@
 		 	</div>
 		</div>
 		<div class="roll_up_plus_or_minus" id="roll_up_plus_or_minusID">
-			<div class="insert_rollUp flex_none enter_2_right">
+			<div class="insert_rollUp flex_none">
 				<div class="enter_rollUp mall_block">
 					<div>(</div>
 					<input type="text" autocomplete="off" id="separate_text_left" maxlength="4">
@@ -249,7 +249,7 @@
 					<nav class="updated_rollUp_right mall" id="right_number_text">?</nav><sup id="insert_right"></sup>
 					<div>)</div>
 				</div>
-				<div class="solve_button_rollUp solve_button_rollUp_mall formula_enter_class">
+				<div class="solve_button_rollUp solve_button_rollUp_mall formula_enter_class UP_formula">
 					<button type="sibmit" id="cube_roll_up">Решить</button>
 				</div>
 			</div>
@@ -282,7 +282,7 @@
 					<div>)</div>
 					<sup class="two_formul">2</sup>
 				</div>
-				<div class="solve_button_rollUp formula_enter_class">
+				<div class="solve_button_rollUp formula_enter_class UP_formula">
 					<button type="sibmit" id="brackets_two_formul">Решить</button>
 				</div>
 		</div>
@@ -312,7 +312,7 @@
 					<input type="text" autocomplete="off" id="right_formul_two" maxlength="5">
 					<div>)</div>
 				</div>
-				<div class="solve_button_rollUp formula_enter_class">
+				<div class="solve_button_rollUp formula_enter_class UP_formula">
 					<button type="sibmit" id="rollUp_formul_two">Решить</button>
 				</div>
 			</div>
@@ -350,7 +350,7 @@
 					<div>)</div>
 					<sup class="two_formul">3</sup>
 				</div>
-				<div class="solve_button_rollUp formula_enter_class">
+				<div class="solve_button_rollUp formula_enter_class UP_formula">
 					<button type="sibmit" id="enter_cube_bracket_formul">Решить</button>
 				</div>
 		</div>
@@ -392,7 +392,7 @@
 					<sup class="two_formul">3</sup>
 					<div>)</div>
 				</div>
-				<div class="solve_button_rollUp formula_enter_class">
+				<div class="solve_button_rollUp formula_enter_class UP_formula">
 					<button type="sibmit" id="enter_roll_up_cube">Решить</button>
 				</div>
 			</div>

@@ -22,14 +22,33 @@ abbreviatedMultiplication.onclick = function abbreviatedMultiplicationFUN() {
 	abbreviatedMultiplicationFormulasID.style.display = 'block';
 		function AbbreviationOfWordsFUN() {
 		var AbbreviationOfWords = window.screen.width;
+		//
 		var Abbreviation1 = document.getElementById('collapse_formula');
 		var Abbreviation2 = document.getElementById('expand_formula');
+		var Abbreviation3 = document.getElementById('plus_or_minus1');
+		var Abbreviation4 = document.getElementById('plus_or_minus2');
+		var Abbreviation5 = document.getElementById('deploy_two_formul');
+		var Abbreviation6 = document.getElementById('rollUp_two_formul');
+		var Abbreviation7 = document.getElementById('enter_collapse_cube_furmul');
+		var Abbreviation8 = document.getElementById('enter_roll_up_cube_formul');
 		if(AbbreviationOfWords <= 420) {
 			Abbreviation1.textContent = 'Развернуть';
 			Abbreviation2.textContent = 'Свернуть';
+			Abbreviation3.textContent = 'Развернуть';
+			Abbreviation4.textContent = 'Свернуть';
+			Abbreviation5.textContent = 'Развернуть';
+			Abbreviation6.textContent = 'Свернуть';
+			Abbreviation7.textContent = 'Развернуть';
+			Abbreviation8.textContent = 'Свернуть';
 		} else {
 			Abbreviation1.textContent = 'Развернуть формулу';
 			Abbreviation2.textContent = 'Свернуть формулу';
+			Abbreviation3.textContent = 'Развернуть формулу';
+			Abbreviation4.textContent = 'Свернуть формулу';
+			Abbreviation5.textContent = 'Развернуть формулу';
+			Abbreviation6.textContent = 'Свернуть формулу';
+			Abbreviation7.textContent = 'Развернуть формулу';
+			Abbreviation8.textContent = 'Свернуть формулу';
 		}
 }
 setInterval(AbbreviationOfWordsFUN, 500);
