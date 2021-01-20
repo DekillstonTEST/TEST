@@ -574,8 +574,12 @@
 	.formula_num_2_solve button {
 		font-size: 40px;
 	}
+	.button_rollUp1 {
+		margin: 10px 0px 0px 0px;
+	}
 	.formula_num_2_expand p {
 		font-size: 40px;
+		margin: 10px 0px 0px 0px;
 	}
 }
 @media(max-width: 459px) {
@@ -592,5 +596,223 @@
 	}
 	.formula_num_2 div {
 		font-size: 45px;
+	}
+}
+/* Третья формула */ 
+@media(max-width: 939px) {
+	.formula_num_3 input {
+	 	font-size: 45px;
+	 	width: 120px
+	}
+	.formula_num_3 sup {
+		font-size: 40px;
+	}
+	.formula_num_3 .center_plus_minus a {
+		width: 45px;
+		height: 30px;
+	}
+	.formula_num_3 .center_plus_minus span {
+		font-size: 40px;
+	}
+	.formula_num_3 .center_plus_minus {
+		margin: 20px 10px 0px 0px;
+	}
+	.formula_num_3_solve button {
+		font-size: 45px;
+	}
+	.formula_num_3_expand p {
+		font-size: 45px;
+		margin: 10px 0px 0px 20px;
+	}
+	.formula_num_3_expand div {
+		font-size: 35px;
+	}
+	.formula_num_3_expand sup {
+		font-size: 30px;
+	}
+}
+@media(max-width: 543px) {
+	.formula_num_3 input {
+	 	font-size: 40px;
+	 	width: 105px
+	}
+	.formula_num_3 sup {
+		font-size: 35px;
+	}
+	.formula_num_3 .center_plus_minus a {
+		width: 40px;
+		height: 25px;
+	}
+	.formula_num_3 .center_plus_minus span {
+		font-size: 35px;
+	}
+	.formula_num_3_solve button {
+		font-size: 40px;
+	}
+	.formula_num_3_expand p {
+		font-size: 40px;
+	}
+	.formula_num_3_expand div {
+		font-size: 25px;
+		margin: 0px;
+	}
+	.formula_num_3_expand sup {
+		font-size: 20px;
+		padding: 0px 0px 0px 10px;
+	}
+}
+@media(max-width: 399px) {
+	.formula_num_3 input {
+	 	font-size: 35px;
+	 	width: 90px
+	}
+	.formula_num_3 {
+		margin: 0px;
+	}
+	.formula_num_3 sup {
+		font-size: 30px;
+	}
+	.formula_num_3 .center_plus_minus a {
+		width: 35px;
+		font-size: 30px;
+		height: 20px;
+	}
+	.formula_num_3 .center_plus_minus span {
+		font-size: 30px;
+		margin: 0px 3px 0px 3px;
+	}
+	.formula_num_3_solve button {
+		font-size: 35px;
+	}
+	.formula_num_3_expand p {
+		font-size: 35px;
+		margin: 10px 0px 0px 0px;
+	}
+}
+/* Четвертая формула */ 
+@media(max-width: 1425px) {
+	.formula_num_4 input {
+		font-size: 45px;
+		width: 90px;
+		height: 45px;
+		margin: 10px 0px 0px 0px;
+	}
+	.formula_num_4 nav {
+		font-size:  45px;
+		margin: 10px 0px 0px 0px;
+	}
+	.formula_num_4 sup {
+		font-size: 35px;
+		padding: 0px 0px 0px 10px;
+	}
+	.formula_num_4 div {
+		font-size: 60px;
+	}
+	.formula_num_4 .center_plus_minus a {
+		font-size: 25px;
+		width: 45px;
+	}
+	.formula_num_4 .center_plus_minus span {
+		font-size: 35px;
+		margin: 0px 3px 0px 3px;
+	}
+	.formula_num_4_solve button {
+		font-size: 45px;
+	}
+	.formula_num_4_expand p {
+		font-size: 45px;
+	}
+	.formula_num_4_expand div {
+		font-size: 40px;
+	}
+	.formula_num_4_expand sup {
+		font-size: 35px;
+	}
+}
+@media(max-width: 1128px) {
+	.formula_num_4 input {
+		font-size: 40px;
+		width: 80px;
+		height: 40px;
+		margin: 10px 0px 0px 0px;
+	}
+	.formula_num_4 div {
+		font-size: 55px;
+	}
+	.formula_num_4 nav {
+		font-size:  40px;
+	}
+	.formula_num_4 sup {
+		font-size: 30px;
+	}
+	.formula_num_4 .center_plus_minus a {
+		font-size: 25px;
+		width: 35px;
+		height: 20px;
+	}
+	.formula_num_4 .center_plus_minus span {
+		font-size: 35px;
+		margin: 0px 3px 0px 3px;
+	}
+	.formula_num_4_expand div {
+		font-size: 35px;
+	}
+	.formula_num_4_expand sup {
+		font-size: 30px;
+	}
+}
+@media(max-width: 999px) {
+	.formula_num_4 input {
+		font-size: 35px;
+		width: 70px;
+		height: 35px;
+		margin: 10px 0px 0px 0px;
+	}
+	.formula_num_4 div {
+		font-size: 50px;
+	}
+	.formula_num_4 nav {
+		font-size:  35px;
+	}
+	.formula_num_4 sup {
+		font-size: 25px;
+	}
+}
+@media(max-width: 897px) {
+	.formula_num_4 input {
+		font-size: 30px;
+		width: 60px;
+		height: 30px;
+		margin: 10px 0px 0px 0px;
+		border-radius: 7px;
+	}
+	.formula_num_4 div {
+		font-size: 45px;
+	}
+	.formula_num_4 nav {
+		font-size:  30px;
+	}
+	.formula_num_4 sup {
+		font-size: 25px;
+	}
+	.formula_num_4_solve button {
+		font-size: 40px;
+	}
+	.formula_num_4_expand p {
+		font-size: 40px;
+	}
+}
+@media(max-width: 693px) {
+	.formula_num_4_solve {
+		margin: 20px 0px 0px 0px;
+	}
+	.formula_num_4_expand p {
+		margin: 20px 0px 0px 0px;
+	}
+	.formula_num_4_expand div {
+		font-size: 30px;
+	}
+	.formula_num_4_expand sup {
+		font-size: 25px;
 	}
 }
