@@ -291,6 +291,23 @@
 	display: flex;
 	margin: 0px 0px 0px 20px;
 }
+.img_abbreviating_formulas {
+	display: none;
+}
+.img_abbreviating {
+	display: inline-block;
+}
+@media(max-width: 710px) {
+	.img_abbreviating_formulas {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0px 0px 1px 0px;
+	}
+	.img_abbreviating{
+		width: 70px;	
+	}
+}
 /* Заголовок */
 @media(max-width: 1293px) {
 	.abbreviating_formulas {

@@ -10,6 +10,12 @@ quadraticEquation.onclick = function quadraticEquationFUN() {
 	solveProblems1ID.style.display = 'block';
 	var abbreviatedMultiplicationFormulasID = document.getElementById('abbreviated_multiplication_formulasID');
 	abbreviatedMultiplicationFormulasID.style.display = 'none';
+	//
+	var quadraticEquationWidth = window.screen.width;
+	if(quadraticEquationWidth <= 710) {
+		var displayLeft = document.getElementById('display_left');
+		displayLeft.style.height = '0px';
+	}
 }
 abbreviatedMultiplication.onclick = function abbreviatedMultiplicationFUN() {
 	var quadraticEquation1ID = document.getElementById('quadratic_equation_1ID');
@@ -20,6 +26,11 @@ abbreviatedMultiplication.onclick = function abbreviatedMultiplicationFUN() {
 	solveProblems1ID.style.display = 'none';
 	var abbreviatedMultiplicationFormulasID = document.getElementById('abbreviated_multiplication_formulasID');
 	abbreviatedMultiplicationFormulasID.style.display = 'block';
+	var abbreviatedMultiplicationWidth = window.screen.width;
+	if(abbreviatedMultiplicationWidth <= 710) {
+		var displayLeft = document.getElementById('display_left');
+		displayLeft.style.height = '0px';
+	}
 		function AbbreviationOfWordsFUN() {
 		var AbbreviationOfWords = window.screen.width;
 		//
@@ -2356,3 +2367,4 @@ solveButton.onclick = function decisionFormulas() {
 		reallocation(leftSide, rightSide);
 	}
 }
+//quadratic_equation

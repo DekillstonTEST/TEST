@@ -193,29 +193,27 @@ decision.onclick = function The_way_to_solve() {
 		} else {orNum.textContent = 'Упс, здесь какаято ошибочка : ('};
 	}
 }
-function closeDown() {
-var openDis = document.getElementById('display_left');
-openDis.style.display = 'none';
+var UPLeftDisplay1 = document.getElementById('UP_left_display_1');
+UPLeftDisplay1.onclick = function UPLeftDisplay1FUN() {
+	var displayLeft = document.getElementById('display_left');
+	displayLeft.style.height = '400px';
 }
-var leftHanDisplayOpen = document.getElementById('open_display');
-leftHanDisplayOpen.onclick = function DisplayUP() {
-	var openDis = document.getElementById('display_left');
-	var right100 = document.getElementById('block100R');
-	right100.style.maxWidth = '100%';
-	right100.style.minWidth = '100%';
-	leftHanDisplayOpen.style.display = 'inline-block';
-	openDis.style.display = 'block';
-	var closeDis = document.getElementById('quadratic_equation');
-	closeDis.onclick = function cloDis1() {
-		var openDis = document.getElementById('display_left');
-		openDis.style.display = 'none';
-	}
-	var closeDis0 = document.getElementById('closD0');
-	var closeDis1 = document.getElementById('closD1');
-	closeDis0.onclick = function cloDis0() {
-	closeDown();
-	}
-	closeDis1.onclick = function cloDis1() {
-	closeDown();
-	}
+var UPLeftDisplay2 = document.getElementById('UP_left_display_2');
+UPLeftDisplay2.onclick = function UPLeftDisplay2FUN() {
+	var displayLeft = document.getElementById('display_left');
+	displayLeft.style.height = '400px';
 }
+var noneLeftImg = document.getElementById('none_left_img');
+noneLeftImg.onclick = function noneLeftImgFUN() {
+	var displayLeft = document.getElementById('display_left');
+	displayLeft.style.height = '0px';
+}
+//
+var fnc = setInterval(function UPborderDisplay() {
+	var UPborderDisplayWidth = window.screen.width;
+	if(UPborderDisplayWidth >= 710) {
+		var displayLeft = document.getElementById('display_left');
+		displayLeft.style.height = '100%';
+	}
+}, 100);
+

@@ -241,7 +241,7 @@ body {
 		padding: 7px;
 	}
 }
-/* Пример и как решить*/ 
+/* Пример и как решить left_display*/ 
 @media(max-width: 1710px) {
 	.example h2 {
 		font-size: 60px;
@@ -420,12 +420,36 @@ body {
 		font-size: 25px;
 	}
 }
-/* Перестановка */
+/* Перестановка*/
+.label_img_none {
+	display: none;
+}
 @media(max-width: 710px) {
 	.left_display {
-		display: none;
-		max-width: 35%;
+		display: block;
+		height: 0px;
+		overflow: hidden;
+		max-width: 100%;
+		transition-duration: 0.2s;
+		transition-timing-function: ease;
 	}
+	.label_img {
+		display: none;
+	}
+	.label_img_none {
+		display: inline-block;
+	}
+	.label_img_none {
+		width: 80px;
+	}
+	.equations_panel a {
+		text-align: center;
+	}
+	.equations_panel p {
+		font-size: 25px;
+	}
+
+
 	.right_block {
 		max-width: 100%;
 		min-width: 100%;
@@ -608,51 +632,5 @@ body {
 	}
 	.top {
 		border-bottom: 2px solid black; 
-	}
-}
-/* Левый дисплей */ 
-@media(max-width: 497px) {
-	.left_display {
-		max-width: 40%;
-	}
-}
-@media(max-width: 434px) {
-	.left_display {
-		max-width: 45%;
-	}
-}
-@media(max-width: 386px) {
-	.left_display {
-		max-width: 50%;
-	}
-}
-@media(max-width: 350px) {
-	.left_display {
-		max-width: 55%;
-	}
-}
-@media(max-width: 317px) {
-	.left_display {
-		max-width: 60%;
-	}
-}
-@media(max-width: 290px) {
-	.left_display {
-		max-width: 65%;
-	}
-}
-@media(max-width: 269px) {
-	.left_display {
-		max-width: 70%;
-	}
-}
-@media(max-width: 248px) {
-	.left_display {
-		max-width: 75%;
-	}
-}
-@media(max-width: 233px) {
-	.left_display {
-		max-width: 80%;
 	}
 }
